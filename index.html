@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Suk June Hong | Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -17,28 +17,73 @@
 </head>
 
 <body>
-
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="navbar-brand float-left">Sukjune Hong</div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mx-auto p-0 col-xs-12 col-sm-12" style="">
+        <div class="navbar-brand bg-info text-white p-3 px-5" style="">Sukjune Hong</div>
+        <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                <li class="nav-item bd-highlight mr-4">
+                    <a class="nav-link" href="./index.html">About</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                <li class="nav-item bd-highlight mr-4">
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                <li class="nav-item bd-highlight mr-4">
+                    <a class="nav-link" href="./contact.html">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
+
+    <!-- About Me -->
+    <div class="container px-auto mx-auto clearfix" style="">
+        <div class="row mt-3">
+            <h2>
+                About Me
+            </h2>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <img src="assets/portrait.jpg" alt="Google" class="img-thumbnail">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <p>
+                        Welcome to my portfolio website! Here you can get to know me through my work from attending
+                        Coding
+                        Boot Camp at Georgia Tech.
+                    </p>
+                    <p>
+                        My interests include:
+                        <ul>
+                            <li>Using Big Data to empower businesses that improve society</li>
+                            <li>Learning how to code (Python, R, and SQL)</li>
+                            <li>Using data analytics to make better choices in fantasy football</li>
+                        </ul>
+                    </p>
+                    <p>
+                        If you want to get in touch or get to know me, please visit my <a href="contact.html" target="_blank">Contact</a>
+                        page!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container bg-dark position-sticky pt-3 footer text-center small ml-0 mr-0">
+        <a class="m-3" href="index.html" target="_blank">About</a>
+        <a class="m-3" href="portfolio.html" target="_blank">Portfolio</a>
+        <a class="m-3" href="contact.html" target="_blank">Contact</a>
+
+        <p class="text-light mt-3">
+            © Copyright 2018
+        </p>
+
+        <p class="text-light">
+            All rights reserved. Sukjune Hong
+        </p>
+    </div>
 
 </body>
 
